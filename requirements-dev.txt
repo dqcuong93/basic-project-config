@@ -4,3 +4,4 @@ flake8-bugbear
 flake8-comprehensions
 isort
 pep8-naming
+eradicate
