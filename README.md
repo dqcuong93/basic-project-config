@@ -47,11 +47,11 @@ It is a great toolkit for checking your code base against coding style (PEP8), p
 ```zsh
 pipenv run <module-name> <path-to-file>
 ```
-![Picture 2](resources/Picture-1.png)
+![Picture 2](resources/Picture-2.png)
 
 
 - If you are already in the virtual environment:
 ```zsh
 <module-name> <path-to-file>
 ```
-![Picture 3](resources/Picture-1.png)
+![Picture 3](resources/Picture-3.png)
