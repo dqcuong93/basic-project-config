@@ -2,7 +2,7 @@
 **Basic configuration files for any project**
 
 Consistency coding by just a few commands
-In any projects), it is believed that developers usually suffered from un-consistent code. 
+In any projects, it is believed that developers usually suffered from un-consistent code. 
 To reduce that, in our project directory, 
 we should have files that would do the job to help our code be more consistent with other developers. 
 This might be our standard for future projects, I hope.
