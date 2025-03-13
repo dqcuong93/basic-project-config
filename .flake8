@@ -1,6 +1,36 @@
 [flake8]
-#Ignore: f-string is missing placeholders
-ignore = F541
 extend-ignore = E203, W503
 max-line-length = 100
-exclude = tests/*
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist,
+    *.egg-info
+max-complexity = 10
+per-file-ignores =
+    __init__.py: F401
+
+# Plugin settings
+plugins =
+    flake8-bugbear,
+    flake8-comprehensions,
+    flake8-simplify,
+    flake8-docstrings,
+    flake8-quotes,
+    pep8-naming
+
+# Docstring settings
+docstring-convention = google
+docstring-style = google
+docstring-min-length = 10
+docstring-required-sections = args,returns,raises
+
+# Quote settings
+quotes = double
+multiline-quotes = double
+avoid-escape = False
+
+# Naming settings
+classmethod-decorators = classmethod
+staticmethod-decorators = staticmethod

@@ -1,4 +1,44 @@
-# Configuration for editors
-# Docstrings and comments use max_line_length = 100
+# Top-most EditorConfig file
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
 [*.py]
 max_line_length = 100
+indent_style = space
+indent_size = 4
+multi_line_output = 3
+
+# YAML files
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+# Requirements files
+[{requirements.txt,requirements-*.txt,requirements/*.txt}]
+end_of_line = lf
+insert_final_newline = true
+
+# TOML files
+[*.toml]
+indent_style = space
+indent_size = 4
+
+# Shell scripts
+[*.{sh,bash,zsh}]
+end_of_line = lf
+indent_style = space
+indent_size = 4

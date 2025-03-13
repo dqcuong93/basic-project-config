@@ -1,7 +1,17 @@
-black
-flake8
-flake8-bugbear
-flake8-comprehensions
-isort
-pep8-naming
-eradicate
+# Formatting
+black>=24.2.0
+isort>=5.13.2
+flake8>=7.0.0
+flake8-bugbear>=24.2.6
+flake8-comprehensions>=3.14.0
+flake8-simplify>=0.21.0
+flake8-docstrings>=1.7.0
+flake8-quotes>=3.3.0
+pep8-naming>=0.13.0
+
+# Type checking
+mypy>=1.8.0
+
+# Security
+bandit>=1.7.7
+safety>=3.0.1
